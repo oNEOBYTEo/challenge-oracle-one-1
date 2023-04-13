@@ -190,7 +190,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 88vh;
+    max-height: 50vh;
     width: 20%;
   }
 
@@ -198,21 +198,12 @@ textarea:focus {
     display: block;
   }
 
-  .output-paragraph {
-    font-size: 24px;
-  }
-  .output-title {
-    font-size: 28px;
-  }
-
   .output-result {
-    font-size: 32px;
     margin-bottom: 5vh;
     min-height: 70vh;
   }
 
   .output-btn {
     font-weight: 400;
-    font-size: 24px;
   }
 }
