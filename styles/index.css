@@ -190,7 +190,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 50vh;
+    max-height: 80vh;
     width: 20%;
   }
 
