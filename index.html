@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.svg" />
+    <title>Encriptador</title>
+
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="container-icon">
+        <img src="./assets/logo.svg" alt="alura icon" />
+        <p>Development by oNEOBYTEo</p>
+      </div>
+
+      <div class="container-form">
+        <form class="form" action="">
+          <textarea
+            id="text"
+            name="text"
+            placeholder="Ingrese el texto aqui"
+            class="form-input"
+          ></textarea>
+          <label class="form-info">
+            <img src="./assets/circle-icon.svg" alt="icono" class="form-icon" />
+            <p class="form-paragraph">Solo letras minúsculas y sin acentos</p>
+          </label>
+          <div class="form-buttons">
+            <button class="btn btn--color form-btn">Encriptar</button>
+            <button class="btn form-btn">Desencriptar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="container-output">
+        <img src="./assets/person.svg" alt="persona" class="output-img" />
+        <h2 class="output-title">Ningún mensaje fue encontrado</h2>
+        <p class="output-paragraph">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
